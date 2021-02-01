@@ -1,3 +1,5 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 # auth-app
 
 Create Next.js web app with authentication support
@@ -5,18 +7,18 @@ Create Next.js web app with authentication support
 ## Goals
 
 - [ ] Signing up
-- [ ] Signing in 
-  - [ ] with OAuth providers
-    - apple
-    - twitter
-    - facebook 
-    - google
-    - linkedin
-    - github
+- [ ] Signing in
+    - [ ] with OAuth providers
+        - apple
+        - twitter
+        - facebook
+        - google
+        - linkedin
+        - github
 - [ ] Signing out
 - [ ] Restricted area, connected users only
 - [ ] Creating hooks to make the user available throughout the application
-- [ ] Loading the user 
+- [ ] Loading the user
 - [ ] Caching the user
 - [ ] Reset password
 
@@ -39,7 +41,7 @@ yarn dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Resources 
+## Resources
 
 - Nextjs Examples :
     - [auth0](https://github.com/vercel/next.js/tree/canary/examples/auth0)
