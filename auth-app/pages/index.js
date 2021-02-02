@@ -22,7 +22,7 @@ const MarkdownStyled = styled.div(css`
   h4{${xw`text-xl my-2`}}
   p, ul, ol, blockquote{${xw`my-6`}}
   li{${xw`break-all`}}
-  ul {${xw`list-disc mb-3 ml-6`}}
+  ul {${xw`mb-3 ml-6`}}
   li+li{${xw`mt-1`}}
   ul ul{${xw`mt-1`}}
   pre{${xw`bg-gray-800 text-gray-100 px-5 py-3 m-0 text-sm rounded-md w-auto`}}

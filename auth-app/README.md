@@ -40,4 +40,15 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Resources
-- [with-next-auth](https://github.com/vercel/next.js/tree/canary/examples/with-next-auth)
+- [NextJs](https://nextjs.org/)
+#### Examples
+- [next.js/../examples/with-next-auth](https://github.com/vercel/next.js/tree/canary/examples/with-next-auth)
+- [nextauthjs/next-auth-example](https://github.com/nextauthjs/next-auth-example)
+- [nextjs/../examples/blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) _for reading and convert markdown file_
+- [nextjs/../examples/with-tailwindcss-emotion](https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss-emotion)
+#### Style
+- [Emotion](https://emotion.sh/)
+- [Tailwindcss](https://tailwindcss.com/) 
+- [xwind](https://github.com/Arthie/xwind)
+#### Icons 
+- [FontAwesome React](https://fontawesome.com/how-to-use/on-the-web/using-with/react)
