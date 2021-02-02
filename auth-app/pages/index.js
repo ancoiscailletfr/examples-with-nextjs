@@ -26,7 +26,7 @@ const MarkdownStyled = styled.div(css`
   li+li{${xw`mt-1`}}
   ul ul{${xw`mt-1`}}
   pre{${xw`bg-gray-800 text-gray-100 px-5 py-3 m-0 text-sm rounded-md w-auto`}}
-  a{${xw`text-blue-600 hover:underline`}}
+  a{${xw`text-green-600 hover:underline`}}
   
 `)
 

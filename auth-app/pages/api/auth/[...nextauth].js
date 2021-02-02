@@ -37,7 +37,6 @@ export default NextAuth({
   database: process.env.DATABASE_URL,
 
   // You can define custom pages to override the built-in pages
-  // The routes shown here are the default URLs that will be used.
   // @link https://next-auth.js.org/configuration/pages
   pages: {
     signIn: '/auth/signin',

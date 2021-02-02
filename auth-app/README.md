@@ -41,10 +41,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Resources
 - [NextJs](https://nextjs.org/)
-#### Examples
+- [NextAuth](https://next-auth.js.org/)
+#### Used examples
 - [next.js/../examples/with-next-auth](https://github.com/vercel/next.js/tree/canary/examples/with-next-auth)
 - [nextauthjs/next-auth-example](https://github.com/nextauthjs/next-auth-example)
-- [nextjs/../examples/blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) _for reading and convert markdown file_
+- [nextjs/../examples/blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) _for reading and converting markdown file_
 - [nextjs/../examples/with-tailwindcss-emotion](https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss-emotion)
 #### Style
 - [Emotion](https://emotion.sh/)
