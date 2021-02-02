@@ -6,14 +6,14 @@ Create Next.js web app with authentication support
 
 ## Goals
 
-- [ ] Signing up
-- [ ] Signing in
-    - [ ] with OAuth providers
+- [x] Signing up
+- [x] Signing in
+    - [x] with OAuth providers
         - twitter
         - facebook
         - google
         - github
-- [ ] Signing out
+- [x] Signing out
 - [ ] Restricted area, connected users only
 - [ ] Creating hooks to make the user available throughout the application
 - [ ] Loading the user
@@ -40,8 +40,4 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Resources
-
-- Nextjs Examples :
-    - [auth0](https://github.com/vercel/next.js/tree/canary/examples/auth0)
-    - [with-next-auth](https://github.com/vercel/next.js/tree/canary/examples/with-next-auth)
-    - [with-passport](https://github.com/vercel/next.js/tree/canary/examples/with-passport)
+- [with-next-auth](https://github.com/vercel/next.js/tree/canary/examples/with-next-auth)
