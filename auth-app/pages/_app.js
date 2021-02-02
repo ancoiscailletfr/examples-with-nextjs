@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import { Provider } from 'next-auth/client'
+import LayoutWrapper from '@/layout/layoutWrapper'
 
 function MyApp ({ Component, pageProps }) {
   return (
@@ -23,7 +24,9 @@ function MyApp ({ Component, pageProps }) {
       }}
       session={pageProps.session}
     >
-      <Component {...pageProps} />
+      <LayoutWrapper {...pageProps}>
+        <Component {...pageProps} />
+      </LayoutWrapper>
     </Provider>
   )
 }
