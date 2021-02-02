@@ -6,14 +6,14 @@ Create Next.js web app with authentication support
 
 ## Goals
 
-- [x] Signing up
-- [x] Signing in
-    - [x] with OAuth providers
+- [X] Signing up
+- [X] Signing in
+    - [X] with OAuth providers
         - twitter
         - facebook
         - google
         - github
-- [x] Signing out
+- [X] Signing out
 - [ ] Restricted area, connected users only
 - [ ] Creating hooks to make the user available throughout the application
 - [ ] Loading the user

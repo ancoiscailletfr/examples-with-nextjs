@@ -10,7 +10,8 @@
     "paths": {
       "@/components/*": ["components/*"],
       "@/styles/*": ["styles/*"],
-      "@/layout/*": ["layout/*"]
+      "@/layout/*": ["layout/*"],
+      "@/lib/*": ["lib/*"]
     }
   },
   "exclude": [

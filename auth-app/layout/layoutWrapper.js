@@ -17,7 +17,7 @@ const LayoutWrapper = (props) => {
   if (Layout) {
     return <Layout {...props}>{props.children}</Layout>
   }
-  return <>{props.children}</>
+  return <DefaultLayout>{props.children}</DefaultLayout>
 }
 
 LayoutWrapper.propTypes = {

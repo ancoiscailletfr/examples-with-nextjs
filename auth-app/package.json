@@ -8,16 +8,28 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "gray-matter": "^4.0.2",
     "next": "10.0.6",
     "next-auth": "^3.2.0",
     "pg": "^8.5.1",
     "prop-types": "^15.7.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/eslint-parser": "^7.12.1",
+    "@emotion/babel-plugin": "^11.1.2",
+    "autoprefixer": "^10.2.4",
     "eslint": "^7.12.1",
     "eslint-config-standard": "^16.0.0",
     "eslint-config-standard-jsx": "^10.0.0",
@@ -26,6 +38,9 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-standard": "^4.0.2",
-    "webpack": "^4.0.0"
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2",
+    "webpack": "^4.0.0",
+    "xwind": "^0.8.0"
   }
 }

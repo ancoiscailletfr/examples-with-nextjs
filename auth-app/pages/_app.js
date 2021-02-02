@@ -1,6 +1,8 @@
-import '@/styles/globals.css'
 import { Provider } from 'next-auth/client'
 import LayoutWrapper from '@/layout/layoutWrapper'
+import { Global } from '@emotion/react'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+import xw from 'xwind'
 
 function MyApp ({ Component, pageProps }) {
   return (
@@ -24,6 +26,10 @@ function MyApp ({ Component, pageProps }) {
       }}
       session={pageProps.session}
     >
+      <Global
+        // tailwind base styles + keyframes + ring and shadow classes variables  ... to global styles
+        styles={xw`XWIND_BASE XWIND_GLOBAL`}
+      />
       <LayoutWrapper {...pageProps}>
         <Component {...pageProps} />
       </LayoutWrapper>

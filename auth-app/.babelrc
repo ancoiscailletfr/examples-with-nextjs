@@ -4,10 +4,11 @@
       "next/babel",
       {
         "preset-react": {
-          "runtime": "automatic"
+          "runtime": "automatic",
+          "importSource": "@emotion/react"
         }
       }
     ]
   ],
-  "plugins": []
+  "plugins": ["xwind/babel", "@emotion/babel-plugin"]
 }
