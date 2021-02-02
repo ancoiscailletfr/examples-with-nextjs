@@ -24,6 +24,7 @@
         "standard-jsx"
     ],
     "rules": {
+        "react/prop-types": 0,
         "no-console": "error",
         "linebreak-style": [
             "error",
