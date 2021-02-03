@@ -31,22 +31,25 @@ const Header = () => {
         <div>
           <p>
             {!session && (
-              <a
-                className='button'
-                href='/api/auth/signin'
-                onClick={(e) => {
-                  e.preventDefault()
-                  signIn()
-                }}
-              >
-                Sign in
-              </a>
+              loading
+                ? <span className='button'><FontAwesomeIcon icon='spinner' css={xw`animate-spin mx-5`} /></span>
+                : (
+                  <a
+                    className='button'
+                    href='/api/auth/signin'
+                    onClick={(e) => {
+                      e.preventDefault()
+                      signIn()
+                    }}
+                  >
+                    Sign in
+                  </a>
+                  )
             )}
             {session && <UserDetails user={session.user} />}
           </p>
         </div>
       </div>
-      <div css={xw`absolute bottom-0 w-full h-0.5 bg-gradient-to-r from-transparent to-gray-300`} />
     </HeaderStyled>
   )
 }
@@ -56,18 +59,19 @@ const HeaderStyled = styled.header([xw`
   py-1 px-2 md:px-4
 `, css`
   .logo{
-    ${xw`w-12 h-12 rounded-xl
+    ${xw`w-12 h-12 rounded-tr-2xl rounded-bl-2xl
+      rounded-tl-sm rounded-br-sm
       bg-gradient-to-b from-gray-500 to-transparent
       flex items-center justify-center
       text-white text-xl`}
   }
   .button{
-    ${xw`bg-gray-900 text-gray-100
+    ${xw`flex justify-center items-center bg-gray-700 text-gray-100
       p-2 rounded-md hover:bg-green-600`}
   }
-  nav{${xw`mx-4`}}
+  nav{${xw`mx-4 hidden sm:block`}}
   nav ul {
-    ${xw`items-center flex text-gray-500`}
+    ${xw`items-center flex text-gray-500 uppercase font-light tracking-tighter`}
   }
   nav li {${xw`p-2 hover[text-green-600 underline]`}}
 
