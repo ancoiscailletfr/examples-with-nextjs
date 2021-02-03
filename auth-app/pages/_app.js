@@ -1,8 +1,10 @@
 import { Provider } from 'next-auth/client'
-import LayoutWrapper from '@/layout/layoutWrapper'
 import { Global } from '@emotion/react'
-import '@fortawesome/fontawesome-svg-core/styles.css'
 import xw from 'xwind'
+
+import '@/lib/fontawesome'
+
+import LayoutWrapper from '@/layout/layoutWrapper'
 
 function MyApp ({ Component, pageProps }) {
   return (

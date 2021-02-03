@@ -4,7 +4,10 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-      colors
+      colors,
+      backgroundImage: {
+        login: "url('/images/city_blur_gabriel_santiago_unsplash.jpg')"
+      }
     }
   },
   variants: {},

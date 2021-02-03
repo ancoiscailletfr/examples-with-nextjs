@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { signOut } from 'next-auth/client'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCaretDown, faCaretUp, faUser } from '@fortawesome/free-solid-svg-icons'
 import styled from '@emotion/styled'
 import xw from 'xwind'
 import { css } from '@emotion/react'
@@ -18,8 +17,8 @@ const UserDetails = ({ user }) => {
         <summary role='button' aria-label='View profile and more' onClick={() => toggleMenuDetails()}>
           {user.image
             ? <img alt={user.name} width={30} height={30} src={user.image} />
-            : <span><FontAwesomeIcon icon={faUser} /></span>}
-          {showMenuDetails ? <FontAwesomeIcon icon={faCaretUp} /> : <FontAwesomeIcon icon={faCaretDown} />}
+            : <span><FontAwesomeIcon icon='user' /></span>}
+          {showMenuDetails ? <FontAwesomeIcon icon='caret-up' /> : <FontAwesomeIcon icon='caret-down' />}
         </summary>
       </details>
       {showMenuDetails && (

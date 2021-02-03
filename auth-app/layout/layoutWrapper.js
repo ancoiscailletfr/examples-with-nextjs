@@ -2,12 +2,14 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 import DefaultLayout from '@/layout/default'
+import LoginLayout from '@/layout/./login'
 
 /**
  * page layouts
  */
 const layouts = {
-  default: DefaultLayout
+  default: DefaultLayout,
+  login: LoginLayout
 }
 
 const LayoutWrapper = (props) => {

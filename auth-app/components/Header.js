@@ -4,7 +4,6 @@ import { signIn, useSession } from 'next-auth/client'
 import styled from '@emotion/styled'
 import xw from 'xwind'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLock, faUnlock } from '@fortawesome/free-solid-svg-icons'
 import { css } from '@emotion/react'
 import UserDetails from '@/components/UserDetails'
 
@@ -15,7 +14,7 @@ const Header = () => {
       <Link href='/'>
         <a>
           <div className='logo'>
-            {session ? <FontAwesomeIcon icon={faUnlock} /> : <FontAwesomeIcon icon={faLock} />}
+            {session ? <FontAwesomeIcon icon='unlock' /> : <FontAwesomeIcon icon='lock' />}
           </div>
         </a>
       </Link>
