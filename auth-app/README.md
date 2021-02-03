@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
+author: François Caillet
+avatar: https://fr.gravatar.com/userimage/193839757/a01c3dea64975070b830c11be36b740b.png?size=200
+website: https://www.ancoiscaillet.fr
+twitter: https://twitter.com/ancoiscailletfr
+linkedin: http://linkedin.com/in/francoiscaillet
+github: https://github.com/ancoiscailletfr
+---
 
 # auth-app
 
+![cover auth app](https://github.com/ancoiscailletfr/examples-with-nextjs/blob/main/auth-app/public/images/cover.png?raw=true)
+
 Create Next.js web app with authentication support
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 ## Goals
 

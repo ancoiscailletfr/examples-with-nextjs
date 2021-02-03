@@ -26,7 +26,7 @@ const DefaultLayout = ({ children }) => {
 }
 
 const MainStyled = styled.main(xw`
-  py-20 px-0 flex flex-col justify-center items-center flex-1
+  py-10 px-0 flex flex-col justify-center items-center flex-1
 `, css`
   h1{${xw`text-4xl my-5`}}
   h2{${xw`text-3xl my-4`}}
