@@ -24,7 +24,7 @@ export default function SignIn ({ providers, csrfToken }) {
             </span>
             <div css={xw`h-10 my-0 mx-auto relative w-full leading-10`}>
               <input
-                css={xw`rounded-md bg-transparent block`}
+                css={xw`rounded-md bg-transparent block w-full focus:outline-none`}
                 type='text' id='email' name='email'
                 placeholder='your@email.com'
               />
