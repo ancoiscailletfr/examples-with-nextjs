@@ -14,7 +14,7 @@ Create Next.js web app with authentication support
         - google
         - github
 - [X] Signing out
-- [ ] Restricted area, connected users only
+- [X] Restricted area, connected users only
 - [ ] Creating hooks to make the user available throughout the application
 - [ ] Loading the user
 - [ ] Caching the user
