@@ -16,15 +16,6 @@ const LoginLayout = ({ children, title }) => {
         <div className='container'>
           {children}
         </div>
-        <span className='credit'>Photo by{' '}
-          <a
-            href='https://unsplash.com/@whileimout?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText'
-          >Gabriel Santiago
-          </a> on{' '}
-          <a href='https://unsplash.com/s/photos/blur?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText'>
-            Unsplash
-          </a>
-        </span>
       </MainStyled>
       <Footer />
     </>
@@ -34,10 +25,8 @@ const LoginLayout = ({ children, title }) => {
 const MainStyled = styled.main([xw`
    relative min-h-screen w-full 
    flex flex-col items-center justify-center 
-   bg-fixed bg-login bg-center bg-cover
+   bg-gradient-to-br from-orange-400 via-orange-800 to-blue-900 bg-fixed bg-cover
 `, css`
-  .credit{${xw`text-xs text-white absolute bottom-10 opacity-80`}}
-  .credit a{${xw`font-bold hover:underline`}}
   .container{${xw`relative mx-auto my-0 w-full max-w-screen-sm overflow-hidden`}}
 `])
 
